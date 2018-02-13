@@ -6,6 +6,6 @@ Docker-powered build/deployment environment for Serverless projects. This Docker
 
 ---
 
-This image is based on node:9.5.0-alpine and has the AWS CLI, jq, Serverless v1.25.0 and Yarn installed.
+This image is based on node:9.5.0-alpine and has the AWS CLI, jq, Serverless v1.26.0 and Yarn installed.
 
 To deploy a Serverless service to AWS you will need to create an IAM user with the required permissions and set credentials. I'm setting credentials using [Bitbucket Pipelines environment variables](https://confluence.atlassian.com/bitbucket/environment-variables-in-bitbucket-pipelines-794502608.html);
