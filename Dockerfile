@@ -9,4 +9,4 @@ RUN apk add --no-cache \
 
 RUN yarn global add serverless@1.26.0
 
-ENTRYPOINT ["/bin/bash", "-c"]
+ENTRYPOINT ["/bin/bash"]
