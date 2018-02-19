@@ -5,7 +5,7 @@ RUN apk add --no-cache \
     py-pip \
     bash \
     jq \
-  && pip install --no-cache-dir --upgrade pip awscli
+  && pip install --no-cache-dir --upgrade pip awscli botocore==1.8.45
 
 RUN yarn global add serverless@1.26.0
 
