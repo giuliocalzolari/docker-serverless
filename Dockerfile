@@ -1,12 +1,12 @@
-FROM node:9.5.0-alpine
+FROM node:11.2-alpine
 
 RUN apk add --no-cache \
     python \
     py-pip \
     bash \
     jq \
-  && pip install --no-cache-dir --upgrade pip awscli botocore==1.8.45
+  && pip install --no-cache-dir --upgrade pip awscli botocore
 
-RUN yarn global add serverless@1.26.0
+RUN yarn global add serverless@1.33.2
 
 ENTRYPOINT ["/bin/bash"]
