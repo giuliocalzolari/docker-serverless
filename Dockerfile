@@ -7,6 +7,6 @@ RUN apk add --no-cache \
     jq \
   && pip install --no-cache-dir --upgrade pip awscli botocore
 
-RUN yarn global add serverless@1.33.2
+RUN yarn global add serverless@1.36.0
 
 ENTRYPOINT ["/bin/bash"]
